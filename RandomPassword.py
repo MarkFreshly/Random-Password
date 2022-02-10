@@ -9,6 +9,7 @@ while password_length > 8 or password_length < 17 :
     #password randomizer
     random_password = ''.join(random.sample(passowrd_characters,password_length))
     #if the password is too short or too long will ask to put in a new number
+    print('Random Text that does nothing')
     if password_length <= 8 or password_length >= 17:
         print('Password needs to be at least 9 characters long but no more than 17')
         password_length = int(input('Enter a password witht the correct length:  '))
